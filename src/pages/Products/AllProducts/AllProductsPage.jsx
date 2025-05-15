@@ -9,8 +9,11 @@ import Product from '../../../pages/Products/Product/Product';
 import { getAllProducts } from '../../../redux/thunks';
 import { useDispatch, useSelector } from 'react-redux';
 import { useLocation } from 'react-router-dom';
+import axios from 'axios';
 
 export default function AllProductsPage() {
+  axios.get(`${import.meta.env.VITE_API_URL}/api/products`);
+
   const [searchParams] = useSearchParams();
   const products = useSelector((state) => state.products.products);
   const dispatch = useDispatch();
