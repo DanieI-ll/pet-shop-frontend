@@ -2,7 +2,7 @@ import styles from './AllProductsPage.module.css';
 import { useSearchParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import { addToCart } from '../../../redux/slices/cartSlice';
-import BreadCrumbs from '../../../components/breadCrumbs/BreadCrumbs';
+import BreadCrumbs from '../../../components/BreadCrumbs/BreadCrumbs.jsx';
 import Filter from '../../../components/Filter/Filter';
 import sortProducts from '../../../utils/filteredProducts';
 import Product from '../../../pages/Products/Product/Product';
