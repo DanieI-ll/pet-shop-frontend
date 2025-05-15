@@ -4,7 +4,7 @@ import styles from './CategoriesPage.module.css'
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
-import Breadcrumbs from "../../components/breadCrumbs/BreadCrumbs";
+import Breadcrumbs from "../../components/BreadCrumbs/BreadCrumbs.jsx";
 
 import { getAllCategories } from "../../redux/thunks";
 import { useDispatch, useSelector } from 'react-redux';
