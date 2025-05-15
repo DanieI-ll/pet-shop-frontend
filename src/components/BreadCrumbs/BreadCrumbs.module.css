@@ -1,0 +1,30 @@
+.breadCrumb_container {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.breadCrumb_item {
+  font-size: 16px;
+  font-weight: 500;
+  color: #8b8b8b;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  white-space: nowrap;
+  padding: 6px 16px;
+}
+
+.breadCrumb_item:hover {
+  background: #f1f3f4;
+}
+
+.breadCrumb_active {
+  color: #282828;
+}
+
+.breadCrumb_separator {
+  width: 16px;
+  height: 1px;
+  background-color: #dddddd;
+}

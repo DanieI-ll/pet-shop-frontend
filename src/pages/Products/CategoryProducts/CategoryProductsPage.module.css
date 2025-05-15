@@ -1,0 +1,22 @@
+.productsByCategory {
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 1440px;
+}
+
+.productsByCategory_title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 110%;
+    color: #282828;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.productsByCategory_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}

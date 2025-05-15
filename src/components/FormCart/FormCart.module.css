@@ -1,0 +1,112 @@
+.Form_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 16px 32px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  color: #282828;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+.inputField:focus {
+  border-color: #0d50ff;
+}
+
+.submitButton {
+  margin-top: 16px;
+  width: 100%;
+  padding: 16px 32px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #0d50ff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #282828;
+}
+
+.submitButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.submitedButtondButton {
+    margin-top: 16px;
+    width: 100%;
+    padding: 16px 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    color: #282828;
+    border: 1px solid #282828;
+    cursor: not-allowed;
+}
+
+.modalContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0d50ff;
+  color: white;
+  padding: 32px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  gap: 16px;
+}
+
+.modalContent h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0%;
+}
+
+.modalContent p {
+  max-width: 424px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+
+.closeButton {
+  width: 100%;
+  background-color: #0d50ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.closeButton:hover {
+  background-color: #082fc4;
+}
