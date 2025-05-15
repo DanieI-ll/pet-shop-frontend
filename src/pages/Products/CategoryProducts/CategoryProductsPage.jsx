@@ -3,7 +3,7 @@ import { useParams, useSearchParams } from 'react-router-dom';
 import Product from '../../../pages/Products/Product/Product.jsx';
 import styles from './CategoryProductsPage.module.css';
 import { addToCart } from '../../../redux/slices/cartSlice';
-import BreadCrumbs from '../../../components/breadCrumbs/BreadCrumbs.jsx';
+import BreadCrumbs from '../../../components/BreadCrumbs/BreadCrumbs.jsx';
 import NotFoundPage from '../../NotFound/NotFoundPage';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProductsByCategory } from '../../../redux/thunks';

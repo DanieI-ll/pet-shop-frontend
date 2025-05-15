@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import styles from './ProductDetailsPage.module.css';
 import AppButton from '../../../shared/components/Button/AppButton';
 import { addToCart } from '../../../redux/slices/cartSlice';
-import BreadCrumbs from '../../../components/breadCrumbs/BreadCrumbs';
+import BreadCrumbs from '../../../components/BreadCrumbs/BreadCrumbs.jsx';
 import NotFoundPage from '../../NotFound/NotFoundPage';
 import { useSelector, useDispatch } from 'react-redux';
 import { getAllCategories, getProductById } from '../../../redux/thunks';
